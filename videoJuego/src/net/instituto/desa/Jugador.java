@@ -1,7 +1,7 @@
 package net.instituto.desa;
 
 public class Jugador {
-	int y, x;
+	private int y, x;
 
 	public int getY() {
 		return y;
@@ -20,19 +20,19 @@ public class Jugador {
 	}
 	
 	public void derecha(){
-		this.setX(this.getX() + 1);
+		x=x+1;
 		}
 	
 	public void izquierda(){
-		this.setX(this.getX() - 1);
+		x=x-1;
 		}
 	
 	public void arriba(){
-		this.setY(this.getY() - 1);
+		y=y-1;
 		}
 	
 	public void abajo(){
-		this.setY(this.getY() + 1);
+		y=y+1;
 		}
 	
 	
